@@ -1,3 +1,5 @@
+#include "test1.hpp"
+#include "test2.hpp"
 #include <iostream>
 using namespace std;
 class person {
@@ -12,7 +14,6 @@ public:
 
 int main(int argc, char *argv[]) {
   string newtest;
-  person person1(20, "项云辉");
-  cout << "名字：" << person1.name << endl << "年龄: " << person1.age << endl;
+  cout << "test success";
   return 0;
 }
