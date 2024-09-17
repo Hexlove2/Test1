@@ -1,6 +1,10 @@
 #include <string>
 class Animal {
-public:
+private:
   int age;
   std::string name;
+
+public:
+  virtual void speakMyname(){};
+  virtual void speakMyage(){};
 };
