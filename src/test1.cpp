@@ -29,7 +29,7 @@ private:
 int main(int argc, char *argv[]) {
   string newtest;
   Animal *a = new Cat(2, "Monday");
-  Person *b = new Student("Xyh", 25, 20000727);
+  Person *b = new Student("Xyh", 25, 2000);
   a->speakMyname();
   a->speakMyage();
   b->introduceMyself();
